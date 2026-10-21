@@ -1,3 +1,4 @@
+/* Emmas idé om att göra en abstrakt klass som varje klass i rum ska ärva
 public class Section 
 {
     int sectionNumber;
@@ -36,7 +37,7 @@ public class Section
         this.sectionProblem = sectionProblem;
     }
 
-    //I WAS HERE
-    
+    //I WAS HERE   
     
 }
+*/
