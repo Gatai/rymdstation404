@@ -1,0 +1,11 @@
+ANTECKNINGAR
+
+
+Funktionen
+[ START ] -> [ LUFTSLUSS ] -> [ LABB ] -> [ REAKTOR ]
+
+MAIN 
+
+Varje "område" klass eller sektion?
+
+
