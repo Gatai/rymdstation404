@@ -1,14 +1,28 @@
 package Enum;
 
 public enum Item {
-    OXYGENTANK(1),
-    KEYCARD(4),
-    MEDKIT(6),
-    FOOD(5);
+    OXYGENTANK(2, "Oxygentank"),
+    KEYCARD(4, "Keycard"),
+    MEDKIT(5, "Medkit"),
+    FOOD(6, "Food");
 
-    private final int value;
+    private final int point;
+    private final String name;
 
-    private Item(int value) {
-        this.value = value;
+    private Item(int point, String name) {
+        this.point = point;
+        this.name = name;
     }
+
+    public int getPoint() {
+        return point;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    
+
+
 }
