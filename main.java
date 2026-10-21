@@ -1,6 +1,6 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Random;
+//import java.util.ArrayList;
+//import java.util.HashMap;
+//import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -12,8 +12,8 @@ public class Main {
         Crewmate[] myCrew = createCrew();
        
         Airlock myAirlock = new Airlock();
-        Lab myLab = new Lab();
-        Reactor myReactor = new Reactor();
+        //Lab myLab = new Lab();
+        //Reactor myReactor = new Reactor();
 
         //yerOne = new Crewmate("PlayerOne", 100, 100, 100);
         //Crewmate playerTwo = new Crewmate("Player", 100, 100, 100);
@@ -24,7 +24,7 @@ public class Main {
         //airlock.lessOxygen(playerOne);
         //airlock.lessOxygen(playerTwo);
         
-        int toolChoice = scan.nextInt();
+        //int toolChoice = scan.nextInt();
 
         scan.close();
     }
