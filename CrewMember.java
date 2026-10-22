@@ -2,15 +2,21 @@
 // Holds shared data like name, energy and role.
 // Subclasses define specific behavior.
 
-import javax.management.relation.Role;
-
+import Enum.Role;
 import Enum.Status;
 
-public class CrewMember {
+public abstract class CrewMember {
     private String name;
     private int energy;
     private Status status;
     private Role role;
+
+    public CrewMember(String name, int energy, Status status, Role role) {
+        this.name = name;
+        this.energy = energy;
+        this.status = status;
+        this.role = role;
+    }
 
     public String getName() {
         return name;
