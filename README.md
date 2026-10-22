@@ -1,7 +1,7 @@
 # Rymdstation 404
 
 **Gruppövning**  
-Emma Hessfelt, Cajsa Lermark, Oskar Erik Flyghed och Phatchari Jansson
+Phatchari Jansson testar att göra den själv
 
 _Bygg en liten Java-simulering tillsammans och rädda stationen innan tiden tar slut._
 
