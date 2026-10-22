@@ -15,4 +15,8 @@ public class Station {
     // Mission status
     private boolean missionFailed;
     private boolean missionCompleted;
+
+    public static void createStation() {
+
+    }
 }
